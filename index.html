@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Music Player</title>
+    <link rel="shortcut icon" href="images/Radio.png">
+    <link rel="stylesheet" href="css1.css">
+    <link rel="stylesheet" href="css2.css">
+</head>
+
+<body>
+    <div class="container flex bg-black  rounded">
+        <!-- <img src="images/logo.svg" alt=""> -->
+        <div class="left">
+            <div class="close">
+                <img width="20px" class="invert" src="images/close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img style="width: 100px;"  src="images/Radio.png" class="invert" alt=""></div>
+                <ul>
+                    <li><img src="images/home.svg" alt="" class="invert">Home</li>
+                    <li><img src="images/search.svg" alt="" class="invert">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img src="images/playlist.svg" class="invert" alt="">
+                    <h2>
+                        Your Library
+                    </h2>
+                </div>
+                <div class="songlist">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a style="text-decoration: none"
+                            href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a style="text-decoration: none" href="https://www.spotify.com/jp/privacy/"><span>Privacy
+                                Center</span></a></div>
+                    <div><a style="text-decoration: none"
+                            href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a style="text-decoration: none"
+                            href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a style="text-decoration: none"
+                            href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a style="text-decoration: none"
+                            href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header rounded">
+                <div class="nav">
+                    <div class="hamburgercontainer">
+                        <img  class="invert hamburger" src="images/hamburger.svg" alt="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="AllPlaylists rounded">
+                <h1>All Playlists</h1>
+                <div class="cardContainer">
+                    <div class="card rounded">
+                        <div class="play">
+                            <svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width:"1.5" stroke-linejoin="round" fill="#000"/>
+                              </svg>
+                        </div>    
+                        <div class="cardimg">
+                            <img src="images/arijitshingh.jpeg" alt="">
+                        </div>
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="card rounded">
+                        <div class="play">
+                            <svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width:"1.5" stroke-linejoin="round" fill="#000"/>
+                              </svg>
+                        </div>    
+                        <div class="cardimg">
+                            <img src="images/justinbeiber.jpeg" alt="">
+                        </div>
+                        <h2>Today's Top Hits</h2>
+                        <p>Jack Harlow is on top of the hottest 50!</p>
+                    </div>
+                    <div class="card rounded">
+                        <div class="play">
+                            <svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width:"1.5" stroke-linejoin="round" fill="#000"/>
+                              </svg>
+                        </div>    
+                        <div class="cardimg">
+                            <img src="images/00f56557183915.59cbcc586d5b8.jpg" alt="">
+                        </div>
+                        <h2>Hit Songs of 2024</h2>
+                        <p>Enjoy the Playlist!</p>
+                    </div>
+                    <div class="card rounded">
+                        <div class="play">
+                            <svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width:"1.5" stroke-linejoin="round" fill="#000"/>
+                              </svg>
+                        </div>    
+                        <div class="cardimg">
+                            <img src="images/fb0750fdb84a67d0cd67f4a176dfae84.jpg" alt="">
+                        </div>
+                        <h2>Top 50 of 2010</h2>
+                        <p>Enjoy the Playlist!</p>
+                    </div>
+                    <div class="card rounded">
+                        <div class="play">
+                            <svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width:"1.5" stroke-linejoin="round" fill="#000"/>
+                              </svg>
+                        </div>    
+                        <div class="cardimg">
+                            <img src="images/OIP (1).jpeg" alt="">
+                        </div>
+                        <h2>Top of the world</h2>
+                        <p>Enjoy the Playlist!</p>
+                    </div>
+                    <div class="card rounded">
+                        <div class="play">
+                            <svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width:"1.5" stroke-linejoin="round" fill="#000"/>
+                              </svg>
+                        </div>    
+                        <div class="cardimg">
+                            <img src="images/OIP.jpeg" alt="">
+                        </div>
+                        <h2>100 hits of 2016-18</h2>
+                        <p>Enjoy the Playlist!</p>
+                    </div>
+                    <div class="card rounded">
+                        <div class="play">
+                            <svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width:"1.5" stroke-linejoin="round" fill="#000"/>
+                              </svg>
+                        </div>    
+                        <div class="cardimg">
+                            <img src="images/Orange and Pink 80's Retro PartyDancePop Music Playlist Cover .png" alt="">
+                        </div>
+                        <h2>Old Melodies</h2>
+                        <p>Enjoy the Playlist!</p>
+                    </div>
+                    <div class="card rounded">
+                        <div class="play">
+                            <svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width:"1.5" stroke-linejoin="round" fill="#000"/>
+                              </svg>
+                        </div>    
+                        <div class="cardimg">
+                            <img src="images/photo1.webp" alt="">
+                        </div>
+                        <h2>Top songs of 90's!</h2>
+                        <p>Enjoy the Playlist!</p>
+                    </div>
+                    <div class="card rounded">
+                        <div class="play">
+                            <svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width:"1.5" stroke-linejoin="round" fill="#000"/>
+                              </svg>
+                        </div>    
+                        <div class="cardimg">
+                            <img src="images/spotify-playlist-cover-orange-headphones-032322.jpg" alt="">
+                        </div>
+                        <h2>Party hits!</h2>
+                        <p>Enjoy the Playlist!</p>
+                    </div>
+                    <div class="card rounded">
+                        <div class="play">
+                            <svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width:"1.5" stroke-linejoin="round" fill="#000"/>
+                              </svg>
+                        </div>    
+                        <div class="cardimg">
+                            <img src="images/pxfuel.jpg" alt="">
+                        </div>
+                        <h2>80's top 100</h2>
+                        <p>Enjoy the Playlist!</p>
+                    </div>
+                    <div class="card rounded">
+                        <div class="play">
+                            <svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width:"1.5" stroke-linejoin="round" fill="#000"/>
+                              </svg>
+                        </div>    
+                        <div class="cardimg">
+                            <img src="images/6849246e16c0bf884bc88a741611725b.jpg" alt="">
+                        </div>
+                        <h2>Fit songs of Neha Kakkar</h2>
+                        <p>Enjoy the Playlist!</p>
+                    </div>
+                    <div class="card rounded">
+                        <div class="play">
+                            <svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width:"1.5" stroke-linejoin="round" fill="#000"/>
+                              </svg>
+                        </div>    
+                        <div class="cardimg">
+                            <img src="images/be148863c1b38268192e240be7dd3428.jpg" alt="">
+                        </div>
+                        <h2>New Released!</h2>
+                        <p>Enjoy the Playlist!</p>
+                    </div>
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+                            
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="songbuttons">
+                            <img id="previous" src="images/prev.svg" alt="">
+                            <img id="play" src="images/pause.svg" alt="">
+                            <img id="next" src="images/next.svg" alt="">
+                        </div>
+                        <div class="timevol">
+                            <div class="songtime">   
+                            </div>
+                            <div class="volume">
+                                <img width="25" src="images/volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume" id="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
